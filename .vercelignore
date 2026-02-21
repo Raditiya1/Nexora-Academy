@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test
+coverage
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+__tests__
+test
+tests
+*.mock.js
+*.mock.ts
+
+# Cache
+.cache
+.next/cache
+node_modules/.cache
+.parcel-cache
+.vercel
+.turbo
+
+# Documentation
+docs
+README.md
+CHANGELOG.md
+LICENSE
+
+# Editor config
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Misc
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+temp
+tempdir
+
+# Git
+.git
+.gitignore
